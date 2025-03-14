@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="优质中国钢材，助力全球建筑与制造。高强度、耐腐蚀、按需定制，立即获取报价！">
+    <title>中国优质钢材 - 获取报价</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #1a3c5e;
+            color: white;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            font-size: 1.2em;
+        }
+        .content {
+            background-color: white;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .benefits li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .form-group {
+            margin: 20px 0;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .cta-button {
+            background-color: #ff4500;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #e03a00;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            .header p {
+                font-size: 1em;
+            }
+            .content {
+                padding: 15px;
+            }
+        }
+    </style>
+    <!-- Google Ads Conversion Tracking (替换 YOUR_CONVERSION_ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_CONVERSION_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_CONVERSION_ID');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>优质中国钢材，助力全球建筑与制造</h1>
+            <p>高强度、耐腐蚀、按需定制，满足您的所有需求</p>
+        </div>
+        <div class="content">
+            <img src="https://via.placeholder.com/600x300?text=钢材图片" alt="中国钢材展示" style="max-width: 100%;">
+            <div class="benefits">
+                <h2>为什么选择我们？</h2>
+                <ul>
+                    <li>✅ 高品质：通过ISO 9001认证，符合国际标准</li>
+                    <li>✅ 按需定制：支持多种规格和厚度</li>
+                    <li>✅ 快速交付：全国物流，7-15天送达</li>
+                    <li>✅ 价格竞争力：工厂直销，节省30%成本</li>
+                </ul>
+            </div>
+            <div class="form-group">
+                <h2>立即获取报价</h2>
+                <p>填写以下信息，我们将在24小时内回复您</p>
+                <form action="https://yourformhandler.com" method="POST" onsubmit="gtag('event', 'conversion', {'send_to': 'YOUR_CONVERSION_ID'});">
+                    <input type="text" name="name" placeholder="您的姓名" required>
+                    <input type="email" name="email" placeholder="您的邮箱" required>
+                    <input type="tel" name="phone" placeholder="您的电话（可选）">
+                    <textarea name="message" placeholder="您的需求描述（可选）" rows="4"></textarea>
+                    <button type="submit" class="cta-button">获取报价</button>
+                </form>
+            </div>
+            <div class="trust">
+                <p>已为超过500家企业提供服务，包括中建集团和三一重工。</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>联系我们：邮箱 sales@steelchina.com | 电话 400-123-4567<br>地址：中国河北省唐山市钢铁工业园区</p>
+        </div>
+    </div>
+</body>
+</html>
